@@ -1,7 +1,7 @@
 # bip21
 
 [![build status](https://secure.travis-ci.org/carsenk/bip21d.png)](http://travis-ci.org/bitcoinjs/bip21)
-[![Version](http://img.shields.io/npm/v/bip21grs.svg)](https://www.npmjs.org/package/bip21)
+[![Version](http://img.shields.io/npm/v/bip21d.svg)](https://www.npmjs.org/package/bip21)
 
 A [BIP21](https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki) compatible URL encoding library for Denarius.
 
