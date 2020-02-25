@@ -1,0 +1,35 @@
+{
+  "name": "bip21d",
+  "version": "2.0.2",
+  "description": "A Denarius BIP21 compatible URL encoding utility library",
+  "author": "Denarius Developers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carsenk/bip21d.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carsenk/bip21d/issues"
+  },
+  "homepage": "https://github.com/carsenk/bip21d",
+  "keywords": [
+    "bip21",
+    "denarius"
+  ],
+  "main": "./index.js",
+  "scripts": {
+    "coverage-report": "nyc report --reporter=lcov",
+    "coverage": "nyc --check-coverage --branches 90 --functions 90 npm run unit",
+    "standard": "standard",
+    "test": "npm run standard && npm run unit",
+    "unit": "tape test/*.js"
+  },
+  "dependencies": {
+    "qs": "^6.3.0"
+  },
+  "devDependencies": {
+    "nyc": "^6.6.1",
+    "standard": "*",
+    "tape": "^4.13.0"
+  }
+}

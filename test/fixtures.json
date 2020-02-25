@@ -1,0 +1,146 @@
+{
+  "valid": [
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR"
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?",
+      "compliant": false
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin://Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "compliant": false
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?label=HashEngineering",
+      "options": {
+        "label": "HashEngineering"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=0",
+      "options": {
+        "amount": 0
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin://Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=0",
+      "compliant": false,
+      "options": {
+        "amount": 0
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=1",
+      "options": {
+        "amount": 1
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=1.00",
+      "options": {
+        "amount": "1.00"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=20.3&label=HashEngineering",
+      "options": {
+        "amount": 20.3,
+        "label": "HashEngineering"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=50&label=HashEngineering&message=Donation%20for%20project%20xyz",
+      "options": {
+        "amount": 50,
+        "label": "HashEngineering",
+        "message": "Donation for project xyz"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=1&custom=foobar",
+      "options": {
+        "amount": 1,
+        "custom": "foobar"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=0.200000&r=https%3A%2F%2Fbitpay.com%2Fi%2Fxxxxxxxxxxxxxxxxxxxxxx",
+      "options": {
+        "amount": "0.200000",
+        "r": "https://bitpay.com/i/xxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin://Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=0.200000&r=https%3A%2F%2Fbitpay.com%2Fi%2Fxxxxxxxxxxxxxxxxxxxxxx",
+      "compliant": false,
+      "options": {
+        "amount": "0.200000",
+        "r": "https://bitpay.com/i/xxxxxxxxxxxxxxxxxxxxxx"
+      }
+    },
+    {
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "other:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "urnScheme": "other"
+    }
+  ],
+  "invalid": [
+    {
+      "exception": "Invalid BIP21 URI",
+      "uri": "satoshi:1BgGZ9tcN4rm9KBzDn7KprQz87SZ26XXXX"
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=-1",
+      "options": {
+        "amount": -1
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "options": {
+        "amount": "-1"
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=-1.00",
+      "options": {
+        "amount": -1.00
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "address": "Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=two",
+      "options": {
+        "amount": "two"
+      }
+    },
+    {
+      "exception": "Invalid amount",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=NaN"
+    },
+    {
+      "exception": "Invalid amount",
+      "uri": "groestlcoin:Ffqz14cyvZYJavD76t6oHNDJnGiWcZMVxR?amount=Infinity"
+    }
+  ]
+}
