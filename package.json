@@ -1,8 +1,8 @@
 {
   "name": "bip21d",
   "version": "2.0.2",
-  "description": "A Denarius BIP21 compatible URL encoding utility library",
-  "author": "Denarius Developers",
+  "description": "A Innova BIP21 compatible URL encoding utility library",
+  "author": "Innova Developers",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "homepage": "https://github.com/carsenk/bip21d",
   "keywords": [
     "bip21",
-    "denarius"
+    "innova"
   ],
   "main": "./index.js",
   "scripts": {

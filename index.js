@@ -1,10 +1,10 @@
 // https://github.com/bitcoin/bips/blob/master/bip-0021.mediawiki
-// denarius:<address>[?amount=<amount>][?label=<label>][?message=<message>]
+// innova:<address>[?amount=<amount>][?label=<label>][?message=<message>]
 
 var qs = require('qs')
 
 function decode (uri, urnScheme) {
-  urnScheme = urnScheme || 'denarius'
+  urnScheme = urnScheme || 'innova'
   if (uri.indexOf(urnScheme) !== 0 ||
     uri.charAt(urnScheme.length) !== ':'
   ) throw new Error('Invalid BIP21 URI: ' + uri)
@@ -25,7 +25,7 @@ function decode (uri, urnScheme) {
 
 function encode (address, options, urnScheme) {
   options = options || {}
-  var scheme = urnScheme || 'denarius'
+  var scheme = urnScheme || 'innova'
   var query = qs.stringify(options)
 
   if (options.amount) {
